@@ -1,0 +1,142 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(239, 225, 202),
+    rgb(233, 210, 148)
+  );
+  font-family: sans-serif;
+}
+.veiw {
+  height: 85vh;
+  width: 800px;
+  margin: 100px auto;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(163, 241, 163),
+    rgb(11, 251, 11)
+  );
+  box-shadow: 0 0 5px 5px rgb(133, 214, 106);
+
+  display: grid;
+  border-radius: 12px;
+  /* border: 2px solid black; */
+  grid-template-columns: 30% 1fr;
+}
+.page {
+  /* border: 2px solid black; */
+  background-color: #fff;
+  /* box-shadow: 0 0 5px 5px rgb(133, 214, 106); */
+
+  grid-column: 2;
+}
+.inputMain {
+  height: 30vh;
+
+  /* background-color: cadetblue; */
+}
+
+.close {
+  grid-column: 2/-1;
+  background-color: #fff;
+}
+
+.icon {
+  height: 24px;
+  width: 24px;
+  margin-left: 95%;
+}
+.icon:hover {
+  height: 25px;
+  width: 25px;
+  color: red;
+}
+.below-login {
+  margin-left: 130px;
+  margin-top: 100px;
+  display: flex;
+  gap: 3%;
+}
+.imgs {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+label {
+  color: rgb(5, 97, 5);
+  font-weight: bold;
+}
+input {
+  height: 40px;
+  width: 350px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  display: block;
+}
+.textInput {
+  height: 45vh;
+}
+
+.container {
+  /* background-color: azure; */
+  padding-left: 20%;
+  padding-right: 20%;
+  /* margin-top: 50px; */
+}
+.inputs {
+  padding-top: 100px;
+
+  /* padding-bottom: 20px; */
+}
+.btn {
+  padding: 16px 32px;
+  background-color: rgb(5, 97, 5);
+  color: #fff;
+  font-size: 20px;
+  border-radius: 24px;
+}
+.btn:active,
+.btn:hover {
+  box-shadow: 0 0 5px 5px rgb(133, 214, 106);
+  cursor: pointer;
+  font-size: 21px;
+}
+.login {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 32px;
+}
+.wel-p {
+  margin-top: 50px;
+  line-height: 1.6;
+  padding: 0 12px;
+  font-style: italic;
+  font-size: 16px;
+}
+.img-w {
+  margin-left: 80px;
+}
+.btn--1 {
+  /* */
+  margin-left: 45px;
+}
+.btn--2 {
+  margin-left: 120px;
+}
+.java-d {
+  text-align: center;
+  margin-bottom: 19px;
+  margin-top: 50px;
+  font-size: 17px;
+}
+.text--area {
+  /* background-color: red; */
+  border: 3px solid green;
+  border-radius: 24px;
+}
